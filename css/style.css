@@ -60,7 +60,7 @@ body {
              color: var(--blue-color);
 }
                 
- .footer-style {
+.footer-style {
             background-color: var(--dark-color);
             background-size: 1600px;
             font-family: inherit;
@@ -208,7 +208,7 @@ border: none;
     letter-spacing: 0.03em;
 }
 
-/* zadabnie2 */
+/* zadanie 3 czy tak moze byc? czy zrobic oddzielnie?*/
 
 ul {
     list-style-type: none;
