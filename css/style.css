@@ -15,8 +15,8 @@ body {
     font-family: "Roboto", sans-serif;
     color: var(--primary-color);
     background-color: var(--secondary-color);
-    width: 1600px;
-    margin: 0px auto;
+    width: 0 auto;
+    margin: 0 auto;
 }
 .menu {
             color: var(--primary-black);
@@ -62,7 +62,7 @@ body {
                 
 .footer-style {
             background-color: var(--dark-color);
-            background-size: 1600px;
+            background-size: auto;
             font-family: inherit;
             font-size: 14px;
             line-height: 1.71;
@@ -226,7 +226,7 @@ ul {
     width: 1170px;
     padding-top: 94px;
     padding-bottom: 94px;
-    margin: 0;
+    margin: 0 auto;
 }
 
 .border-header {
@@ -267,11 +267,11 @@ ul {
 }
 
 .descryption {
-    margin: 0;
+    margin: 0 ;
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 696px;
+    width: auto;
     justify-content: center;
     padding-left: 452px;
     padding-right: 452px;
@@ -281,34 +281,34 @@ ul {
 }
 
 .main-header-title {
-    margin: 0;
+    margin: 0 ;
     text-align: center;
     display: flex;
     justify-content: space-between;
 }
 
 .main-button {
-    margin: 0;
+    margin: 0 auto;
     text-align: center;
     padding: 10px 41px 10px 42px;
 }
 
 .paragraph-style {
-    margin: 0;
+    margin: 0 auto;
     display: flex;
     gap: 30px;
 }
 
 h4 {
-    margin: 0;
+    margin: 0 auto;
 }
 
 p {
-    margin: 0;
+    margin: 0 auto;
 }
 
 .paragraph-style li {
-    margin: 0;
+    margin: 0 auto;
     display: flex;
     flex-direction: column;
     align-content: center;
@@ -316,7 +316,7 @@ p {
 }
 
 h2 {
-    margin: 0;
+    margin: 0 auto;
 }
 
 .section2-style {
@@ -337,7 +337,7 @@ h2 {
 }
 
 .section3-style {
-    margin: 0;
+    margin: 0 auto;
     display: flex;
     flex-direction: column;
     gap: 50px;
@@ -346,7 +346,7 @@ h2 {
 }
 
 .team-item {
-    margin: 0;
+    margin: 0 auto;
 }
 
 .team {
@@ -405,7 +405,7 @@ h2 {
 }
 
 .portfolio-item-description {
-    margin: 0;
+    margin: 0 auto;
     text-align: left;
 }
 
