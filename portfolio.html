@@ -1,21 +1,23 @@
 <!DOCTYPE html>
-<html lang="pl">
+<html lang="en">
 
 <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width-device-width, initial-scale=1.0" />
-    <title>zadanie domowe GOIT part 2 i 3</title>
-    <link rel="stylesheet" href="css/style.css"/>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
-        rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+        rel="stylesheet" />
+    <link href="./css/styles.css" rel="stylesheet" />
 </head>
+
 <body>
     <div class="border-header">
         <header class="heder-description container">
-            <div class="header-section">
+            <div class="header-section section">
                 <a class="header-logo" href="./index.html"><span class="in-logo">Web</span>Studio</a>
                 <nav class="navigation-description">
                     <ul class="main-menu">
@@ -28,12 +30,19 @@
                         <li class="nav-item"><a class="menu" href="#">Kontakt</a></li>
                     </ul>
                 </nav>
+
                 <ul class="contact">
                     <li>
-                        <a class="header-contact" href="mailto:info@devstudio.com">info@devstudio.com</a>
+                        <a class="header-contact" href="mailto:info@devstudio.com"><svg class="envelope-icon" width="16"
+                                height="12">
+                                <use href="./images/icons.svg#icon-envelope"></use>
+                            </svg>info@devstudio.com</a>
                     </li>
                     <li>
-                        <a class="header-contact" href="tel:+48111111111">+48 111 111 111</a>
+                        <a class="header-contact" href="tel:+48111111111"><svg class="phone-icon" width="10"
+                                height="16">
+                                <use href="./images/icons.svg#icon-phone"></use>
+                            </svg>+48 111 111 111</a>
                     </li>
                 </ul>
             </div>
@@ -54,87 +63,106 @@
             <div class="portfolio-style">
                 <ul class="portfolio">
                     <li class="portfolio-item">
-                        <figure class="portfolio-item-description">
-                            <img src="./images/technocrack.jpg" alt="laptop" width="370" height="294" />
-                            <figcaption class="portfolio-subject">
-                                <h4 class="portfolio-title">Technocrack</h4>
-                                <p class="portfolio-subtitle">Strona internetowa</p>
-                            </figcaption>
-                        </figure>
+                        <a href="#">
+                            <figure class="portfolio-item-description">
+                                <img src="./images/laptop.jpg" alt="laptop" width="370" height="294" />
+                                <figcaption class="portfolio-subject">
+                                    <h4 class="portfolio-title">Technocrack</h4>
+                                    <p class="portfolio-subtitle">Strona internetowa</p>
+                                </figcaption>
+                            </figure>
+                        </a>
                     </li>
                     <li class="portfolio-item">
-                        <figure class="portfolio-item-description">
-                            <img src="./images/grafika.jpg" alt="basket-players" width="370" height="294" />
-                            <figcaption class="portfolio-subject">
-                                <h4 class="portfolio-title">
-                                    Grafika New Orlean vs Golden Star
-                                </h4>
-                                <p class="portfolio-subtitle">Strona internetowa</p>
-                            </figcaption>
-                        </figure>
+                        <a href="#">
+                            <figure class="portfolio-item-description">
+                                <img src="./images/basket-players.jpg" alt="basket-players" width="370" height="294" />
+                                <figcaption class="portfolio-subject">
+                                    <h4 class="portfolio-title">
+                                        Grafika New Orlean vs Golden Star
+                                    </h4>
+                                    <p class="portfolio-subtitle">Strona internetowa</p>
+                                </figcaption>
+                            </figure>
+                        </a>
                     </li>
                     <li class="portfolio-item">
-                        <figure class="portfolio-item-description">
-                            <img src="./images/restauracja.jpg" alt="Seafood" width="370" height="294" />
-                            <figcaption class="portfolio-subject">
-                                <h4 class="portfolio-title">Restauracja Seafood</h4>
-                                <p class="portfolio-subtitle">Aplikacja</p>
-                            </figcaption>
-                        </figure>
+                        <a href="#">
+                            <figure class="portfolio-item-description">
+                                <img src="./images/seafood.jpg" alt="Seafood" width="370" height="294" />
+                                <figcaption class="portfolio-subject">
+                                    <h4 class="portfolio-title">Restauracja Seafood</h4>
+                                    <p class="portfolio-subtitle">Aplikacja</p>
+                                </figcaption>
+                            </figure>
+                        </a>
                     </li>
                     <li class="portfolio-item">
-                        <figure class="portfolio-item-description">
-                            <img src="./images/projekt prime.jpg" alt="headphones" width="370" height="294" />
-                            <figcaption class="portfolio-subject">
-                                <h4 class="portfolio-title">Projekt Prime</h4>
-                                <p class="portfolio-subtitle">Marketing</p>
-                            </figcaption>
-                        </figure>
+                        <a href="#">
+                            <figure class="portfolio-item-description">
+                                <img src="./images/headphones.jpg" alt="headphones" width="370" height="294" />
+                                <figcaption class="portfolio-subject">
+                                    <h4 class="portfolio-title">Projekt Prime</h4>
+                                    <p class="portfolio-subtitle">Marketing</p>
+                                </figcaption>
+                            </figure>
+                        </a>
                     </li>
                     <li class="portfolio-item">
-                        <figure class="portfolio-item-description">
-                            <img src="./images/projekt boxes.jpg" alt="boxes" width="370" height="294" />
-                            <figcaption class="portfolio-subject">
-                                <h4 class="portfolio-title">Projekt Boxes</h4>
-                                <p class="portfolio-subtitle">Aplikacja</p>
-                            </figcaption>
-                        </figure>
+                        <a href="#">
+                            <figure class="portfolio-item-description">
+                                <img src="./images/boxes.jpg" alt="boxes" width="370" height="294" />
+                                <figcaption class="portfolio-subject">
+                                    <h4 class="portfolio-title">Projekt Boxes</h4>
+                                    <p class="portfolio-subtitle">Aplikacja</p>
+                                </figcaption>
+                            </figure>
+                        </a>
                     </li>
                     <li class="portfolio-item">
-                        <figure class="portfolio-item-description">
-                            <img src="./images/inspiration.jpg" alt="monitor" width="370" height="294" />
-                            <figcaption class="portfolio-subject">
-                                <h4 class="portfolio-title">Inspiration has no Borders</h4>
-                                <p class="portfolio-subtitle">Strona internetowa</p>
-                            </figcaption>
-                        </figure>
+                        <a href="#">
+                            <figure class="portfolio-item-description">
+                                <img src="./images/monitor.jpg" alt="monitor" width="370" height="294" />
+                                <figcaption class="portfolio-subject">
+                                    <h4 class="portfolio-title">Inspiration has no Borders</h4>
+                                    <p class="portfolio-subtitle">Strona internetowa</p>
+                                </figcaption>
+                            </figure>
+                        </a>
                     </li>
                     <li class="portfolio-item">
-                        <figure class="portfolio-item-description">
-                            <img src="./images/magazyn.jpg" alt="book" width="370" height="294" />
-                            <figcaption class="portfolio-subject">
-                                <h4 class="portfolio-title">Magazyn Limited Edition</h4>
-                                <p class="portfolio-subtitle">Dizajn</p>
-                            </figcaption>
-                        </figure>
+                        <a href="#">
+                            <figure class="portfolio-item-description">
+                                <img src="./images/book.jpg" alt="book" width="370" height="294" />
+                                <figcaption class="portfolio-subject">
+                                    <h4 class="portfolio-title">Magazyn Limited Edition</h4>
+                                    <p class="portfolio-subtitle">Dizajn</p>
+                                </figcaption>
+                            </figure>
+                        </a>
                     </li>
                     <li class="portfolio-item">
-                        <figure class="portfolio-item-description">
-                            <img src="./images/projekt lab.jpg" alt="ticket" width="370" height="294" />
-                            <figcaption class="portfolio-subject">
-                                <h4 class="portfolio-title">Projekt LAB</h4>
-                                <p class="portfolio-subtitle">Marketing</p>
-                            </figcaption>
-                        </figure>
+                        <a href="#">
+                            <figure class="portfolio-item-description">
+                                <img src="./images/ticket.jpg" alt="ticket" width="370" height="294" />
+                                <figcaption class="portfolio-subject">
+                                    <h4 class="portfolio-title">Projekt LAB</h4>
+                                    <p class="portfolio-subtitle">Marketing</p>
+                                </figcaption>
+                            </figure>
+                        </a>
                     </li>
                     <li class="portfolio-item">
-                        <figure class="portfolio-item-description">
-                            <img src="./images/growing.jpg" alt="personal-computer" width="370" height="294" />
-                            <figcaption class="portfolio-subject">
-                                <h4 class="portfolio-title">Growing Business</h4>
-                                <p class="portfolio-subtitle">Aplikacja</p>
-                            </figcaption>
-                        </figure>
+                        <a href="#">
+                            <figure class="portfolio-item-description">
+                                <img src="./images/personal-computer.jpg" alt="personal-computer" width="370"
+                                    height="294" />
+                                <figcaption class="portfolio-subject">
+                                    <h4 class="portfolio-title">Growing Business</h4>
+                                    <p class="portfolio-subtitle">Aplikacja</p>
+                                </figcaption>
+                            </figure>
+                        </a>
                     </li>
                 </ul>
             </div>
@@ -143,18 +171,49 @@
 
     <footer class="footer-style">
         <div class="container">
-            <a class="footer-logo" href="./index.html"><span class="in-logo">Web</span>Studio</a>
-            <address class="address-description">
-                <ul class="addres">
-                    <li class="adress-style">m. Warszawa, Aleje Jerozolimskie 21</li>
-                    <li>
-                        <a class="footer-contact" href="mailto:info@example.com">info@example.com</a>
-                    </li>
-                    <li>
-                        <a class="footer-contact" href="tel:+48111111111">+48 111 111 111</a>
-                    </li>
-                </ul>
-            </address>
+            <div class="footer-section section">
+                <div class="address-box">
+                    <a class="footer-logo" href="./index.html"><span class="in-logo">Web</span>Studio</a>
+                    <address class="address-description">
+                        <ul class="addres">
+                            <li class="adress-style">
+                                m. Warszawa, Aleje Jerozolimskie 21
+                            </li>
+                            <li>
+                                <a class="footer-contact" href="mailto:info@example.com">info@example.com</a>
+                            </li>
+                            <li>
+                                <a class="footer-contact" href="tel:+48111111111">+48 111 111 111</a>
+                            </li>
+                        </ul>
+                    </address>
+                </div>
+                <div class="footer-social-links">
+                    <h4 class="footer-social-title">Dołącz do nas</h4>
+                    <ul class="social-icon">
+                        <li class="social-shield">
+                            <svg class="social-item" width="20px" height="20px">
+                                <use href="./images/icons.svg#icon-instagram"></use>
+                            </svg>
+                        </li>
+                        <li class="social-shield">
+                            <svg class="social-item" width="20px" height="20px">
+                                <use href="./images/icons.svg#icon-twitter-1"></use>
+                            </svg>
+                        </li>
+                        <li class="social-shield">
+                            <svg class="social-item" width="20px" height="20px">
+                                <use href="./images/icons.svg#icon-facebook"></use>
+                            </svg>
+                        </li>
+                        <li class="social-shield">
+                            <svg class="social-item" width="20px" height="20px">
+                                <use href="./images/icons.svg#icon-linkedin"></use>
+                            </svg>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </div>
     </footer>
 </body>
