@@ -13,17 +13,6 @@
     --semi-white-color: rgba(255, 255, 255, 0.6);
     --secondary-color: rgba(255, 255, 255, 1);
 
-    /* shadow colors */
-    /* --grey-0-01: rgba(0 0 0 0.01);
-  --grey-0-06: rgba(0 0 0 0.06);
-  --grey-0-08: rgba(0 0 0 0.08);
-  --grey-0-12: rgba(0 0 0 0.12);
-  --grey-0-14: rgba(0 0 0 0.14);
-  --grey-0-15: rgba(0 0 0 0.15);
-  --grey-0-16: rgba(0 0 0 0.16);
-  --grey-0-15: rgba(0 0 0 0.15);
-  --grey-0-15: rgba(0 0 0 0.15);
-  --grey-0-20: rgba(0 0 0 0.2); */
 }
 
 *,
@@ -165,7 +154,6 @@ a {
     color: var(--secondary-color);
     letter-spacing: 0.06em;
     background-color: var(--blue-color);
-
     border: none;
     border-radius: 4px;
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
@@ -322,8 +310,10 @@ ul {
 
 .main-header-title {
     width: 696px;
+    height: 120px;
     display: flex;
     justify-content: center;
+    text-align: center;
 }
 
 .main-button {
@@ -441,17 +431,15 @@ h2 {
     flex-wrap: wrap;
     justify-content: space-between;
     gap: 30px;
-    /* flex-basis: calc((100%-60px) / 3);  przy takim zapisie wyrzuca błąd parsowania*/
     flex-basis: 370px;
 }
 
 .portfolio-item {
     width: 370px;
-
     border-bottom: 1px solid;
     border-color: var(--grey-color);
     box-shadow: 0 0 1px 1px var(--grey-color);
-    /* background-color: rgba(255, 255, 255, 1); */
+    
 }
 
 .portfolio-item:hover,
@@ -485,7 +473,6 @@ h2 {
     padding: 60px 0px 60px 0px;
 }
 
-.footer-style .container {}
 
 .footer-section {
     padding-top: 0;
@@ -506,7 +493,6 @@ h2 {
     gap: 20px;
 }
 
-.address-style {}
 
 .envelope-icon {
     margin-right: 10px;
@@ -570,7 +556,6 @@ h2 {
     display: flex;
     flex-direction: column;
     gap: 20px;
-    /* padding top=72px-60px */
     padding-top: 12px;
 }
 
@@ -632,15 +617,12 @@ h2 {
 }
 
 .team-social {
-    /* margin-top:6px + gap:10px z powyższej sekcji=16px */
     margin-top: 6px;
     justify-content: center;
     display: flex;
     flex-direction: row;
     gap: 10px;
 }
-
-.tem-social-item {}
 
 .team-style {
     background-color: var(--white-color);
